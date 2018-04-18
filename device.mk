@@ -36,7 +36,7 @@ TARGET_SCREEN_WIDTH := 1440
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/leeco/x2/rootdir/root,root)
+    $(call find-copy-subdir-files,*,device/leeco/max_plus/rootdir/root,root)
 
 # Audio configuration files
 PRODUCT_COPY_FILES += \

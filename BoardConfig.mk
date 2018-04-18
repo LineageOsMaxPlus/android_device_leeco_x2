@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,9 +24,9 @@
 # inherit from msm8996-common
 -include device/leeco/msm8996-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := le_x2,le_x2_india,le_x2_na,LeMax2_CN,LeMax2_NA,LeMax2_WW,LeMax2
+TARGET_OTA_ASSERT_DEVICE := max_plus,LeMaxPro_CN,Letv X910,LEX910
 
-DEVICE_PATH := device/leeco/x2
+DEVICE_PATH := device/leeco/max_plus
 
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
@@ -36,7 +36,7 @@ BOARD_KERNEL_CMDLINE += androidboot.configfs=true
 BOARD_KERNEL_TAGS_OFFSET := 0x02000000
 BOARD_RAMDISK_OFFSET     := 0x02200000
 
-TARGET_KERNEL_CONFIG := lineage_x2_defconfig
+TARGET_KERNEL_CONFIG := lineage_max_plus_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth

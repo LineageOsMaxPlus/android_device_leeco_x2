@@ -1,8 +1,8 @@
 # Product
-ro.config.product=x2
-ro.internal.model=Le X820
+ro.config.product=max_plus
+ro.internal.model=Le X910
 ro.config.le_hardware_version=HW_1.0.0
-ro.le.mtpname=Le Max2
+ro.le.mtpname=LeMax Pro
 
 persist.sys.media.use-awesome=1
 sys.keep_app_1=com.bel.android.dspmanager
